@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
 
-    <title>Login - Dev Mentor BR</title>
+    <title>Cadastro - Dev Mentor BR</title>
 </head>
 
 <body>
@@ -20,17 +20,23 @@
     <main class="container">
         <!-- left -->
         <section class="left">
-            <h1>Minha conta</h1>
+            <h1>Nova conta</h1>
 
             <form class="form">
+                <input type="text" class="input" placeholder="Digite seu nome">
                 <input type="email" placeholder="Digite seu e-mail..." class="input">
                 <input type="password" placeholder="Digite sua senha..." class="input">
 
-                <button type="submit" class="button">Acessar conta</button>
+                <div class="area">
+                    <input type="radio" name="termos" id="termos" class="termos">
+                    <span>Concordo com os termos.</span>
+                </div>
+                
+                <button type="submit" class="button">Nova conta</button>
             </form>
 
             <div class="area">
-                <span>Novo por aqui? <a href="singup.html" class="link">Cadastre-se</a></span>
+                <span>Já possui uma conta? <a href="index.html" class="link">Login</a></span>
             </div>
         </section>
 
